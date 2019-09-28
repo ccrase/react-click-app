@@ -13,24 +13,16 @@ class App extends Component{
     super(props);
     this.state = {
       score: 0,
-      totalScore: 13,
+      totalScore: 0,
       clickedImages: []
     }
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick= id => {
-    // for(var i = 0; i < this.state.clickedImages.length; i++){
-    //   if(id === this.state.clickedImages[i]){
-    //     console.log("match");
-    //   }else{
-    //     this.setState({ clickedImages: this.state.clickedImages.push(id)});
-    //     console.log('updated state ' + this.state.clickedImages);
-    //   }
-    // };
     console.log('Clicked this ' + id);
-    this.shuffle(images);
     this.checkClicked(id);
+    this.shuffle(images);
   }
 
   checkClicked =(id) => {
@@ -38,14 +30,19 @@ class App extends Component{
       const list = state.clickedImages.push(id);
       return {list};
     });
+
     console.log(this.state.clickedImages);
+
+    this.setState({ score: this.state.score + 1});
+
     for(var i =0; i < this.state.clickedImages.length; i++){
       if(id === this.state.clickedImages[i]){
-        alert('clicked the same image twice');
+
+        if(this.state.score > this.state.totalScore){
+          this.setState({ totalScore: this.state.score});
+        }        
+        this.setState({ clickedImages: []});
         this.setState({ score: 0});
-      }else{
-        console.log("in");
-        this.setState({ score: ++this.state.score});
       }
     }
   }
