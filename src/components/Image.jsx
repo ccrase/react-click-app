@@ -1,13 +1,9 @@
 import React from 'react';
 
-export class Image extends React.Component{
+export function Image(props){
 
-    handleClick(){
-        console.log('handle click inside img constructor')
-    }
-    render(){
         return(
-            <img className='img-thumbnail' src={this.props.src} alt={this.props.name} onClick={this.handleClick}/>
+            <img className='img-thumbnail' id={props.id} src={props.src} alt={props.name} onClick={() => props.onClick(props.id)} width="100px"/>
             )
-        };
 }
+

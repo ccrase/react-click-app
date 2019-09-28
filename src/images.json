@@ -1,0 +1,70 @@
+[{
+    "name": "instagram",
+    "src": "https://image.flaticon.com/icons/svg/174/174855.svg",
+    "id": 1
+  },
+  {
+    "name": "facebook",
+    "src": "https://image.flaticon.com/icons/svg/174/174848.svg",
+    "id": 2
+  },
+  {
+    "name": "android",
+    "src": "https://image.flaticon.com/icons/svg/174/174836.svg",
+    "id": 3
+  },
+  {
+    "name": "google",
+    "src": "https://image.flaticon.com/icons/svg/174/174851.svg",
+    "id": 4
+  },
+  {
+    "name": "linkedin",
+    "src": "https://image.flaticon.com/icons/svg/174/174857.svg",
+    "id": 5
+  },
+  {
+    "name": "snapchat",
+    "src": "https://image.flaticon.com/icons/svg/174/174870.svg",
+    "id": 6
+  },
+  {
+    "name": "whatsapp",
+    "src": "https://image.flaticon.com/icons/svg/174/174879.svg",
+    "id": 7
+  },
+  {
+    "name": "youtube",
+    "src": "https://image.flaticon.com/icons/svg/174/174883.svg",
+    "id": 8
+  },
+  {
+    "name": "twitter",
+    "src": "https://image.flaticon.com/icons/svg/174/174876.svg",
+    "id": 9
+  },
+  {
+    "name": "spotify",
+    "src": "https://image.flaticon.com/icons/svg/174/174872.svg",
+    "id": 10
+  },
+  {
+    "name": "skype",
+    "src": "https://image.flaticon.com/icons/svg/174/174869.svg",
+    "id": 11
+  },
+  {
+    "name": "pinterest",
+    "src": "https://image.flaticon.com/icons/svg/174/174863.svg",
+    "id": 12
+  },
+  {
+    "name": "paypal",
+    "src": "https://image.flaticon.com/icons/svg/174/174861.svg",
+    "id": 13
+  },
+  {
+    "name": "soundcloud",
+    "src": "https://image.flaticon.com/icons/svg/174/174871.svg",
+    "id": 14
+  }]
